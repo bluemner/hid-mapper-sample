@@ -1,0 +1,3 @@
+[submodule "libhid-descriptor"]
+	path = libhid-descriptor
+	url = https://github.com/bluemner/libhid-descriptor.git

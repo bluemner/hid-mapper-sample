@@ -1,0 +1,103 @@
+---
+#
+# Configuration will map to the linux name of each button
+# Example G7 is KEY_MACRO7 in input-event
+#
+bagpipe:
+  name: "Logitech Gaming Mouse G600"
+  description: "Sample profile"
+  vendor:  "Logitech"
+  product: "G600"
+  #
+  # ID Section can be found on linux at
+  # /sys/class/input/input*/id
+  # replace * with number 
+  #
+  bustype_id: 0x0003 # hex
+  product_id: 0x1025 # hex
+  vendor_id:  0x046d # hex
+  version_id: 0x0111 # hex
+
+  buttons:
+    - key: "BTN_LEFT" 
+      press: "+BTN_LEFT"
+      release: "-BTN_LEFT"
+      modifier: false # if set to true all other fields but key will be ignored
+      modifier_press:
+      modifier_release:
+    - key: "BTN_RIGHT"
+      press: "+BTN_RIGHT"
+      release: "-BTN_RIGHT"
+      modifier: false
+    - key: "BTN_MIDDLE"
+      press: "+BTN_MIDDLE"
+      release: "-BTN_MIDDLE"
+      modifier: false
+    - key: "BTN_BACK"
+      press: "+BTN_BACK"
+      release: "-BTN_BACK"
+      modifier: false
+    - key: "BTN_FORWARD"
+      press: "+BTN_FORWARD"
+      release: "-BTN_FORWARD"
+      modifier: false
+    - key: "BTN_PINKIE"
+      press: "+BTN_PINKIE"
+      release: "-BTN_PINKIE"
+      modifier: false
+    - key: "KEY_MACRO7"
+      press: "+KEY_MACRO7"
+      release: "-KEY_MACRO7"
+      modifier: false
+    - key: "KEY_MACRO8"
+      press: "+KEY_MACRO8"
+      release: "-KEY_MACRO8"
+      modifier: false
+    - key: "KEY_MACRO9"
+      press: "+KEY_1 KEY_A"
+      release: "-KEY_1"
+      modifier: false
+    - key: "KEY_MACRO10"
+      press: "+KEY_LEFTSHIFT"
+      release: "-KEY_LEFTSHIFT"
+      modifier: false
+    - key: "KEY_MACRO11"
+      press: "+KEY_PLAYPAUSE"
+      release: "-KEY_PLAYPAUSE"
+      modifier: false
+    - key: "KEY_MACRO12"
+      press: "+KEY_MACRO12"
+      release: "-KEY_MACRO12"
+      modifier: false
+    - key: "KEY_MACRO13"
+      press: "+KEY_MACRO13"
+      release: "-KEY_MACRO13"
+      modifier: false
+    - key: "KEY_MACRO14"
+      press: "+KEY_MACRO14"
+      release: "-KEY_MACRO14"
+      modifier: false
+    - key: "KEY_MACRO15"
+      press: "+KEY_MACRO15"
+      release: "-KEY_MACRO15"
+      modifier: false
+    - key: "KEY_MACRO16"
+      press: "+KEY_MACRO16"
+      release: "-KEY_MACRO16"
+      modifier: false
+    - key: "KEY_MACRO17"
+      press: "+KEY_MACRO17"
+      release: "-KEY_MACRO17"
+      modifier: false
+    - key: "KEY_MACRO18"
+      press: "+KEY_MACRO18"
+      release: "-KEY_MACRO18"
+      modifier: false
+    - key: "KEY_MACRO19"
+      press: "+KEY_MACRO19"
+      release: "-KEY_MACRO19"
+      modifier: false
+    - key: "KEY_MACRO20"
+      press: "+KEY_MACRO20"
+      release: "-KEY_MACRO20"
+      modifier: false

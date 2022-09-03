@@ -1,0 +1,24 @@
+{
+  "files.associations": {
+    "stdio.h": "c",
+    "input.h": "c",
+    "input-event-codes.h": "c",
+    "stdbool.h": "c",
+    "macro.h": "c",
+    "typeinfo": "c",
+    "mapper.h": "c",
+    "hid-descriptor-vtable.h": "c",
+    "emitter.h": "c",
+    "keys.h": "c",
+    "signum-arch.h": "c",
+    "errno.h": "c",
+    "uinput.h": "c",
+    "features.h": "c",
+    "error_t.h": "c",
+    "fcntl.h": "c",
+    "hidraw-linux-vtable.h": "c",
+    "signal.h": "c",
+    "type_traits": "c",
+    "yaml-parser.h": "c"
+  }
+}

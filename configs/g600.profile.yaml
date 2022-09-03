@@ -1,0 +1,55 @@
+#
+# This is sample profile specification for the g600 mouse 
+#      for use with the generic driver program.
+#
+---
+profile:
+  name: "G600 Mouse Keyboard"
+  usage_minimum: 0xE0
+  usage_maximum: 0xE7
+  button_state_code: 0x80
+  button_count: 21
+  bitmask_size: 32
+  buttons: 
+    - bitmask: 0x000000
+      key: "KEY_RESERVED"
+    - bitmask: 0x000001
+      key: "BTN_LEFT"
+    - bitmask: 0x000002
+      key: "BTN_RIGHT"
+    - bitmask: 0x000004
+      key: "BTN_MIDDLE"
+    - bitmask: 0x000008
+      key: "BTN_BACK"
+    - bitmask: 0x000010
+      key: "BTN_FORWARD"
+    - bitmask: 0x000020
+      key: "BTN_PINKIE"
+    - bitmask: 0x000040
+      key: "KEY_MACRO7"
+    - bitmask: 0x000080
+      key: "KEY_MACRO8"
+    - bitmask: 0x000100
+      key: "KEY_MACRO9"
+    - bitmask: 0x000200
+      key: "KEY_MACRO10"
+    - bitmask: 0x000400
+      key: "KEY_MACRO11"
+    - bitmask: 0x000800
+      key: "KEY_MACRO12"
+    - bitmask: 0x001000
+      key: "KEY_MACRO13"
+    - bitmask: 0x002000
+      key: "KEY_MACRO14"
+    - bitmask: 0x004000
+      key: "KEY_MACRO15"
+    - bitmask: 0x008000
+      key: "KEY_MACRO16"
+    - bitmask: 0x010000
+      key: "KEY_MACRO17"
+    - bitmask: 0x020000
+      key: "KEY_MACRO18"
+    - bitmask: 0x040000
+      key: "KEY_MACRO19"
+    - bitmask: 0x080000
+      key: "KEY_MACRO20"
