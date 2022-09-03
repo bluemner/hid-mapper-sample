@@ -1,5 +1,5 @@
 # hid-mapper-sample
-This is a proof on concept (poc)  project with code to override the default hid functionality of [human interface devices (HID)](docs/human-interface-device.md) on Linux.
+This is a proof of concept (POC) project with code to override the default hid functionality of [human interface devices (HID)](docs/human-interface-device.md) on Linux.
 
 It enables keyboard macros via configuration as code. Currently yaml configuration are supported but other format parsers can be added. 
 
