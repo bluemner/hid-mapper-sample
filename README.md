@@ -108,7 +108,7 @@ You will need the following libs that are compiled with the application
 
 > Not sure about calling this a "driver" but for now it will do... 
 
-To run use the command. Not it will need sudo or permissions to grab the device or you need to be in the input group needed to do grab. 
+To run compile the code then run the binary file `g600-linux-driver`. The program will need sudo permissions to grab the device. You could also setup an input group that has permissions to grab a device. 
 
 ```bash
 sudo ./g600-linux-driver configs/g600.map.yaml
@@ -125,6 +125,7 @@ signal(SIGQUIT, stop);
 signal(SIGABRT, stop); 
 ```
 
+So systemd scripts should work. 
 
 
 [↥ TOP ↥](#hid-mapper-sample)
